@@ -45,6 +45,15 @@ PRODUCT_PACKAGES += \
     libtflite \
     vendor.qti.hardware.servicetracker@1.2.vendor
 
+PRODUCT_PACKAGES += \
+    perfservice \
+    UxPerformance \
+    QPerformance \
+    libqti_performance \
+    libqti-at \
+    libqti-perfd-client_system \
+    libqti-iopd-client_system
+
 ifeq ($(TARGET_KERNEL_VERSION),5.4)
 PRODUCT_PACKAGES += \
     task_profiles-qti
